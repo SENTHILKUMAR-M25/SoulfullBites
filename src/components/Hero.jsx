@@ -18,7 +18,7 @@ export default function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % specialties.length);
-    }, 3000);
+    }, 1000);
     return () => clearInterval(interval);
   }, [specialties.length]);
 

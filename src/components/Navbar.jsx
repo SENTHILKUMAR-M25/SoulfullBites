@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
-import logo from "../assets/image.png";
+import logo from "../assets/logo.png";
 
 export default function Navbar() {
 

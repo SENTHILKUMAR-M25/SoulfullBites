@@ -39,7 +39,6 @@ const products = [
       { name: "Strawberry", img: "/images/bites/strawberry.jpg", price: 10 },
       { name: "Pineapple", img: "/images/bites/pineapple.jpg", price: 10 },
       { name: "Choco Truffle", img: "/images/bites/choco-truffle.jpg", price: 10 },
-      { name: "Kiwi Oreo", img: "/images/bites/kiwi-oreo.jpg", price: 10 }
     ]
   },
 

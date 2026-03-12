@@ -90,7 +90,7 @@ export default function Navbar() {
             <img
               src={logo}
               alt="Soulfull Bites"
-              className="h-12 w-12 object-contain group-hover:scale-110 transition"
+              className="h-14 w-14 object-contain group-hover:scale-110 transition"
             />
 
             <span className="text-xl font-black bg-gradient-to-r from-[#C9A227] to-[#F5E6C8] bg-clip-text text-transparent">

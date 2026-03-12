@@ -2,6 +2,7 @@
 
 
 import Hero from "../components/Hero";
+import Reviews from "../components/Review";
 
 export default function Home() {
 
@@ -10,7 +11,7 @@ export default function Home() {
     <div>
 
       <Hero />
-
+      <Reviews />
     </div>
   );
 }

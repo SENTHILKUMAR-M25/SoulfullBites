@@ -122,8 +122,55 @@ const products = [
     { name: "White Forest", img: "/images/dreamcake/v2/white-forest.jpg", prices: { "250g": 284, "500g": 568 } },
     { name: "Oreo", img: "/images/dreamcake/v2/oreo.jpg", prices: { "250g": 279, "500g": 558 } }
   ]
-}
+},
 
+{
+    category: "Sandwiches",
+    items: [
+      {
+        subCategory: "Hot & Spicy",
+        items: [
+          { name: "Veg Cheesy Sandwich", img: "/images/sandwiches/veg-cheesy.jpg", price: 50 },
+          { name: "Corn Cheesy Sandwich", img: "/images/sandwiches/corn-cheesy.jpg", price: 70 },
+          { name: "Capsicum Cheesy Sandwich", img: "/images/sandwiches/capsicum-cheesy.jpg", price: 75 },
+          { name: "Paneer Tikka Sandwich", img: "/images/sandwiches/paneer-tikka.jpg", price: 80 },
+          { name: "Mushroom Cheesy Sandwich", img: "/images/sandwiches/mushroom-cheesy.jpg", price: 85 },
+          { name: "Paneer Cheesy Sandwich", img: "/images/sandwiches/paneer-cheesy.jpg", price: 100 },
+          { name: "Chicken Mayo Sandwich", img: "/images/sandwiches/chicken-mayo.jpg", price: 120 },
+          { name: "Chicken Cheese Sandwich", img: "/images/sandwiches/chicken-cheese.jpg", price: 150 }
+        ]
+      },
+      {
+        subCategory: "Hot & Sweet",
+        items: [
+          { name: "Jam And Honey Sandwich", img: "/images/sandwiches/jam-honey.jpg", price: 40 },
+          { name: "Peanut Butter Sandwich", img: "/images/sandwiches/peanut-butter.jpg", price: 80 },
+          { name: "Nutella Sandwich", img: "/images/sandwiches/nutella.jpg", price: 100 }
+        ]
+      }
+    ]
+  },
+  {
+  category: "Bun Varieties",
+  items: [
+    { name: "Jam Bun", img: "/images/buns/jam-bun.jpg", price: 20 },
+    { name: "Cream Bun", img: "/images/buns/cream-bun.jpg", price: 30 },
+    { name: "Fruit (Tutli Frutti) Bun", img: "/images/buns/fruit-bun.jpg", price: 35 },
+    { name: "Chocolate Cream Bun", img: "/images/buns/chocolate-cream-bun.jpg", price: 40 },
+    { name: "Butter Bun", img: "/images/buns/butter-bun.jpg", price: 40 },
+    { name: "Caramel Bun", img: "/images/buns/caramel-bun.jpg", price: 45 },
+    { name: "Strawberry Bun", img: "/images/buns/strawberry-bun.jpg", price: 50 },
+    { name: "Pineapple Bun", img: "/images/buns/pineapple-bun.jpg", price: 50 },
+    { name: "Orange Bun", img: "/images/buns/orange-bun.jpg", price: 50 },
+    { name: "Cherry Bun", img: "/images/buns/cherry-bun.jpg", price: 60 },
+    { name: "Cheese Cream Bun", img: "/images/buns/cheese-cream-bun.jpg", price: 80 },
+    { name: "Garlic Butter Bun", img: "/images/buns/garlic-butter-bun.jpg", price: 85 },
+    { name: "Oreo Cream Bun", img: "/images/buns/oreo-cream-bun.jpg", price: 90 },
+    { name: "Korean Bun", img: "/images/buns/korean-bun.jpg", price: 90 },
+    { name: "Chocolate Lava Bun", img: "/images/buns/chocolate-lava-bun.jpg", price: 95 },
+    { name: "Nutella Bun", img: "/images/buns/nutella-bun.jpg", price: 100 }
+  ]
+},
 ];
 
 export default products;

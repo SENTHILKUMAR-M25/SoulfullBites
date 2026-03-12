@@ -23,7 +23,7 @@ export default function Hero() {
   }, [specialties.length]);
 
   return (
-    <section className="relative overflow-hidden bg-[#FFF5F5] py-16 lg:py-32">
+    <section className="relative h-screen overflow-hidden bg-[#FFF5F5] py-16 lg:py-32">
       
       {/* --- Floating Background Elements --- */}
       <div className="absolute inset-0 pointer-events-none select-none overflow-hidden">
@@ -39,7 +39,7 @@ export default function Hero() {
         <span className="absolute top-1/2 left-5 text-2xl opacity-15 animate-float-slow">💖</span>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+      <div className="max-w-7xl py-15 mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
         
         {/* Text Content */}
         <div className="text-center md:text-left">

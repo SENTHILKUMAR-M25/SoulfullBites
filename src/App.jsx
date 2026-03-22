@@ -14,6 +14,7 @@ import CartProvider from "./context/CartContext";
 import Categories from "./components/Categories";
 
 import "./App.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
 
   return (
     <CartProvider>
+      <ScrollToTop />
 
       <BrowserRouter>
 

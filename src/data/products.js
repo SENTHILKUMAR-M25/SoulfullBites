@@ -1,3 +1,26 @@
+import Dark_Chocolate from "../assets/ChocoPies/"
+import Milk_Chocolate from "../assets/ChocoPies/"
+import White_Chocolate from "../assets/ChocoPies/"
+import Butter_Scotch from "../assets/Ball&HeartBites/"
+import Strawberry from "../assets/Ball&HeartBites/"
+import Pineapple from "../assets/Ball&HeartBites/"
+import Choco_Truffle from "../assets/Ball&HeartBites/"
+import Vanilla from "../assets/Classic Cakes/"
+import Chocolate from "../assets/Classic Cakes/"
+import Chocolate_Truffle from "../assets/Classic Cakes/"
+import Black_Forest from "../assets/Classic Cakes/"
+import White_Forest from "../assets/Classic Cakes/"
+import Classic_Brownie from "../assets/Brownies/"
+import Nutella_Brownie from "../assets/Brownies/"
+import Oreo_Brownie from "../assets/Brownies/"
+import Butterscotch from "../assets/JarCakes/"
+import Choco_Chips from "../assets/JarCakes/"
+import Strawberry from "../assets/JarCakes/"
+import Black_Forest from "../assets/JarCakes/"
+import Red_Velvet from "../assets/JarCakes/"
+import Vanilla from "../assets/Pastries/"
+
+
 const products = [
 
   {
@@ -5,7 +28,7 @@ const products = [
     items: [
       {
         name: "Dark Chocolate",
-        img: "/images/choco-pies/dark-chocolate.jpg",
+        img: Dark_Chocolate,
         prices: {
           pack4: 90,
           single: 25
@@ -14,7 +37,7 @@ const products = [
 
       {
         name: "Milk Chocolate",
-        img: "/images/choco-pies/milk-chocolate.jpg",
+        img:Milk_Chocolate,
         prices: {
           pack4: 110,
           single: 30
@@ -23,7 +46,7 @@ const products = [
 
       {
         name: "White Chocolate",
-        img: "/images/choco-pies/white-chocolate.jpg",
+        img: White_Chocolate,
         prices: {
           pack4: 130,
           single: 35
@@ -35,41 +58,60 @@ const products = [
   {
     category: "Ball & Heart Bites",
     items: [
-      { name: "Butter Scotch", img: "/images/bites/butterscotch.jpg", price: 10 },
-      { name: "Strawberry", img: "/images/bites/strawberry.jpg", price: 10 },
-      { name: "Pineapple", img: "/images/bites/pineapple.jpg", price: 10 },
-      { name: "Choco Truffle", img: "/images/bites/choco-truffle.jpg", price: 10 },
+      { name: "ButterScotch", img: Butter_Scotch, price: 10 },
+      { name: "Strawberry", img: Strawberry, price: 10 },
+      { name: "Pineapple", img: Pineapple, price: 10 },
+      { name: "Choco Truffle", img: Choco_Truffle, price: 10 },
     ]
   },
 
   {
     category: "Classic Cakes",
     items: [
-      { name: "Vanilla", img: "/images/cakes/vanilla.jpg", prices: { halfKg: 350, oneKg: 700 } },
-      { name: "Chocolate", img: "/images/cakes/chocolate.jpg", prices: { halfKg: 400, oneKg: 800 } },
-      { name: "Chocolate Truffle", img: "/images/cakes/choco-truffle.jpg", prices: { halfKg: 450, oneKg: 900 } },
-      { name: "Black Forest", img: "/images/cakes/black-forest.jpg", prices: { halfKg: 450, oneKg: 900 } },
-      { name: "White Forest", img: "/images/cakes/white-forest.jpg", prices: { halfKg: 475, oneKg: 950 } }
+      { name: "Vanilla", img: Vanilla, prices: { halfKg: 350, oneKg: 700 } },
+      { name: "Chocolate", img: Chocolate, prices: { halfKg: 400, oneKg: 800 } },
+      { name: "Chocolate Truffle", img: Chocolate_Truffle, prices: { halfKg: 450, oneKg: 900 } },
+      { name: "Black Forest", img: Black_Forest, prices: { halfKg: 450, oneKg: 900 } },
+      { name: "White Forest", img: White_Forest, prices: { halfKg: 475, oneKg: 950 } }
     ]
   },
 
-  {
-    category: "Brownies",
-    items: [
-      { name: "Classic Brownie", img: "/images/brownies/classic.jpg", prices: { halfKg: 600, oneKg: 1100 } },
-      { name: "Nutella Brownie", img: "/images/brownies/nutella.jpg", prices: { halfKg: 950, oneKg: 1800 } },
-      { name: "Oreo Brownie", img: "/images/brownies/oreo.jpg", prices: { halfKg: 750, oneKg: 1400 } }
-    ]
-  },
+  //{
+  //   category: "Brownies",
+  //   items: [
+  //     { name: "Classic Brownie", img: Classic_Brownie, prices: { halfKg: 600, oneKg: 1100 } },
+  //     { name: "Nutella_Brownie", img: Nutella_Brownie, prices: { halfKg: 950, oneKg: 1800 } },
+  //     { name: "Oreo_Brownie", img: Oreo_Brownie, prices: { halfKg: 750, oneKg: 1400 } }
+  //   ]
+  // },
+
+{
+  category: "Brownies",
+  items: [
+    { name: "Classic Brownie", img: Classic_Brownie, prices: { halfKg: 600, oneKg: 1100 } },
+    { name: "Blondie Brownie", img: Blondie_Brownie, prices: { halfKg: 700, oneKg: 1300 } },
+    { name: "Dark Chocolate Brownie", img: Dark_Chocolate_Brownie, prices: { halfKg: 650, oneKg: 1200 } },
+    { name: "Double Chocolate Brownie", img: Double_Chocolate_Brownie, prices: { halfKg: 750, oneKg: 1400 } },
+    { name: "Triple Chocolate Brownie", img: Triple_Chocolate_Brownie, prices: { halfKg: 850, oneKg: 1600 } },
+    { name: "Nutella Brownie", img: Nutella_Brownie, prices: { halfKg: 950, oneKg: 1800 } },
+    { name: "Oreo Chocolate Brownie", img: Oreo_Brownie, prices: { halfKg: 750, oneKg: 1400 } },
+    { name: "Biscoff Chocolate Brownie", img: Biscoff_Brownie, prices: { halfKg: 950, oneKg: 1800 } },
+    { name: "Pista Brownie", img: Pista_Brownie, prices: { halfKg: 1000, oneKg: 1900 } },
+    { name: "Almond Brownie", img: Almond_Brownie, prices: { halfKg: 900, oneKg: 1700 } },
+    { name: "Walnut Brownie", img: Walnut_Brownie, prices: { halfKg: 800, oneKg: 1500 } },
+    { name: "Peanut Butter Swirl Brownie", img: Peanut_Butter_Swirl_Brownie, prices: { halfKg: 750, oneKg: 1400 } },
+    { name: "Sandwich Brownie", img: Sandwich_Brownie, prices: { halfKg: 800, oneKg: 1500 } }
+  ]
+},
 
   {
     category: "Jar Cakes",
     items: [
-      { name: "Butterscotch", img: "/images/jar-cakes/butterscotch.jpg", price: 99 },
-      { name: "Choco Chips", img: "/images/jar-cakes/choco-chips.jpg", price: 99 },
-      { name: "Strawberry", img: "/images/jar-cakes/strawberry.jpg", price: 99 },
-      { name: "Black Forest", img: "/images/jar-cakes/black-forest.jpg", price: 119 },
-      { name: "Red Velvet", img: "/images/jar-cakes/red-velvet.jpg", price: 119 }
+      { name: "Butterscotch", img: Butterscotch, price: 99 },
+      { name: "Choco Chips", img: Choco_Chips, price: 99 },
+      { name: "Strawberry", img: Strawberry, price: 99 },
+      { name: "Black Forest", img: Black_Forest, price: 119 },
+      { name: "Red Velvet", img: Red_Velvet, price: 119 }
     ]
   },
 
